@@ -51,12 +51,12 @@ Logarithmic and arctangent terms are structured using a **hexagonal graph**, ens
 
 ## ✨ Key Features
 
-- ✔ Valid on **all spatial regions** (interior, exterior, surfaces, edges, vertices)  
-- ✔ Fully analytical expression with special-case handling  
-- ✔ Stable logarithmic and arctangent formulations  
-- ✔ High-precision validation using BigFloat (Julia)  
-- ✔ Consistent results across MATLAB, Python, and Julia  
-- ✔ Includes **examples**, **tests**, and **pseudocode**  
+- Valid on **all spatial regions** (interior, exterior, surfaces, edges, vertices)  
+- Fully analytical expression with special-case handling  
+- Stable logarithmic and arctangent formulations  
+- High-precision validation using BigFloat (Julia)  
+- Consistent results across MATLAB, Python, and Julia  
+- Includes **examples**, **tests**, and **pseudocode**  
 
 ---
 
