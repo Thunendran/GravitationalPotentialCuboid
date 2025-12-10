@@ -4,7 +4,7 @@
 
 ---
 
-## 📘 Overview
+## Overview
 
 This repository provides the **first fully general algorithm** for computing the **gravitational potential of a homogeneous cuboid**:
 
@@ -23,7 +23,7 @@ Physics International, 16(1), 7–17. https://doi.org/10.3844/pisp.2025.7.17 **
 
 ---
 
-## 📐 Physical Model
+## Physical Model
 
 ### Cuboid Geometry  
 The gravitational potential is computed for a cuboid with semi-dimensions:
@@ -49,7 +49,7 @@ Logarithmic and arctangent terms are structured using a **hexagonal graph**, ens
 
 ---
 
-## ✨ Key Features
+## Key Features
 
 - Valid on **all spatial regions** (interior, exterior, surfaces, edges, vertices)  
 - Fully analytical expression with special-case handling  
@@ -60,9 +60,9 @@ Logarithmic and arctangent terms are structured using a **hexagonal graph**, ens
 
 ---
 
-## 📊 Scientific Validation
+## Scientific Validation
 
-### 1️⃣ Gradient (Acceleration) Test
+### Gradient (Acceleration) Test
 
 <p align="center">
   <img src="docs/images/Fig_4.png" width="450"><br>
@@ -73,7 +73,7 @@ This verifies directional symmetry and interior decay toward the center.
 
 ---
 
-### 2️⃣ Laplacian Test
+### Laplacian Test
 
 Poisson’s equation requires:
 
@@ -133,31 +133,31 @@ GravitationalPotentialCuboid/
 
 ---
 
-## 🚀 Implementations
+## Implementations
 
-### 🔹 Python  
+### Python  
 ✔ Vectorized  
 ✔ Multiprocessing batch solver  
 ✔ Stable log/atan functions  
-📄 See: `/python/README_python.md`
+See: `/python/README_python.md`
 
 ---
 
-### 🔹 MATLAB  
+### MATLAB  
 ✔ Vectorized  
 ✔ Fully validated test suite  
-📄 See: `/matlab/README_matlab.md`
+See: `/matlab/README_matlab.md`
 
 ---
 
-### 🔹 Julia  
+### Julia  
 ✔ Arbitrary precision (BigFloat)  
 ✔ High-accuracy Laplacian and gradient tests  
-📄 See: `/julia/README_julia.md`
+See: `/julia/README_julia.md`
 
 ---
 
-## 🧠 Algorithm Pseudocode
+## Algorithm Pseudocode
 
 Complete pseudocode is available at:
 
@@ -167,7 +167,7 @@ It follows the structure in the published manuscript.
 
 ---
 
-## 📚 References
+## References
 
 Complete list: `/docs/references.md`
 
@@ -182,12 +182,12 @@ If you use these codes in research, **please cite this work**.
 
 ---
 
-## 📬 Contact
+## Contact
 
 For questions or collaborations:
 
-📧 periyandy.1@osu.edu  
-🌐 Division of Geodetic Science, School of Earth Sciences, The Ohio State University, Columbus, OH 43210, USA
-🌐 Faculty of Geomatics, Sabaragamuwa University of Sri Lanka, Sri Lanka
+periyandy.1@osu.edu  
+Division of Geodetic Science, School of Earth Sciences, The Ohio State University, Columbus, OH 43210, USA
+Faculty of Geomatics, Sabaragamuwa University of Sri Lanka, Sri Lanka
 
 
